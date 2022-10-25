@@ -3,7 +3,7 @@
         currentUrl: {},
         constants: {
             queries: {
-                result_links: ['.g div > a[href*="www.w3schools.com"]', '.g div > a[href*="blog.csdn.net"]'],
+                result_links: ['.g div > a[href*="www.w3school"]', '.g div > a[href*=".csdn.net"]'],
                 link_parent_node: '#rso div.g',
                 main_google_node: 'main'
             },
