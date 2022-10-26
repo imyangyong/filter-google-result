@@ -1,8 +1,8 @@
-<h2 align="center">Remove Unlike Website</h2>
+<h2 align="center">Filter Google Result</h2>
 
-_Chrome plugin to remove Unlike Site results in google searches_
+_Chrome plugin to remove unexpected results in google searches__
 
-Unlike Site List:
+Removed Site List:
 
 1. w3cschool
 2. csdn

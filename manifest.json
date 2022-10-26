@@ -1,14 +1,14 @@
 {
     "author": "imyangyong",
     "manifest_version": 3,
-    "name": "Remove UnlikeSite",
-    "description": "Remove UnlikeSite results in google searches",
+    "name": "Filter Google Result",
+    "description": "Remove unexpected result in google searches",
     "version": "0.0.1",
     "background": {
         "service_worker": "scripts/bg.js"
     },
     "action": {
-        "default_title": "Remove UnlikeSite",
+        "default_title": "Filter Google Result",
         "default_icon": {
             "19": "images/icon19_inactive.png",
             "38": "images/icon38_inactive.png"

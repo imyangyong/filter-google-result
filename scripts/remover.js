@@ -1,5 +1,5 @@
 (function () {
-    var UnlikeSiteRemover = {
+    var UnexpectedSiteRemover = {
         currentUrl: {},
         constants: {
             queries: {
@@ -13,8 +13,8 @@
                 active: 'active'
             },
             console: {
-                needs_to_be_updated: 'UnlikeSiteRemover selectors need to be updated!',
-                removed: 'UnlikeSiteRemover links were removed from this search.'
+                needs_to_be_updated: 'Filter Google Result selectors need to be updated!',
+                removed: 'Filter Google Result links were removed from this search.'
             },
             observerConfig: { childList: true, subtree: true }
         },
@@ -88,7 +88,7 @@
     /* may need to tune this timeout in the future
     otherwise we get progressive removals instead of all them toghether */
     setTimeout(() => {
-        UnlikeSiteRemover.init();
+        UnexpectedSiteRemover.init();
     }, 250)
 
 })();
